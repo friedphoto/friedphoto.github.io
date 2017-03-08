@@ -1,22 +1,14 @@
-
-
-body 
-#hex{
-    background-color: 0C587F; 1750FF;
+body {
+	background-color: #0C587F;
 }
-
 h1 {
-    color: 1E7F08;
-    text-align: left;
+	color: #1E7F08;
+	text-align: left;
 }
 img {
-	<background-image: images/metalstatue.jpg
-    max-width: 100%;
-    height: auto;
+	width:400px;  /* temporary value to keep images under control until you're ready to style them */
 }
-	<img scr"images/metalstatue.jpg">
-
 p {
-    font-family: verdana;
-    font-size: 20px;
+	font-family: verdana;
+	font-size: 20px;
 }
