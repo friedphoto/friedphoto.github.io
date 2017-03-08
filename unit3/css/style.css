@@ -1,0 +1,22 @@
+
+
+body 
+#hex{
+    background-color: 0C587F; 1750FF;
+}
+
+h1 {
+    color: 1E7F08;
+    text-align: left;
+}
+img {
+	<background-image: images/metalstatue.jpg
+    max-width: 100%;
+    height: auto;
+}
+	<img scr"images/metalstatue.jpg">
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
