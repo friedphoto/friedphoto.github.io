@@ -1,14 +1,79 @@
+
 body {
-	background-color: #0C587F;
+	color: #25D6E5;
+	background-color: #402105;
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	}
+
+.image { 
+	position: relative;
+	width: 100%; /*for IE 6*/
 }
-h1 {
-	color: #1E7F08;
-	text-align: left;
-}
+
 img {
-	width:400px;  /* temporary value to keep images under control until you're ready to style them */
+	width: 100%;
+    height: auto;
+    opacity: 0.3%;
+}
+
+h1 {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	font-size: 150px;
+	text-align: left;
+	padding-left: 10px;
+	color: #74777c;
+	text-shadow: 2px 2px #000000;
+    }
+
+nav {
+	position:absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	font-size: 50pz;
+	text-align: center;
+	padding:10px;
+	color: #9498a1;
+	font-style: italic;
+}   
+ nav a {
+ 	color: #5C5C7F;
+ 	text-decoration: none;
 }
 p {
+	margin-top: 0;
 	font-family: verdana;
 	font-size: 20px;
 }
+
+
+h2 {
+	font-size: 30px
+	font-style: italic, bold;
+	text-transform: uppercase;
+	color: #9498a1;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #402105;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 60px;
+	color: #5C5C7F;
+	text-decoration: none;
+}
+
+#description {
+	font-style: bold;
+	font-size: 70px;
+	color: #5C5C7F;
+	text-decoration: none;
+	text-align: left bottom;
