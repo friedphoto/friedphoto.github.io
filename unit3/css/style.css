@@ -2,7 +2,7 @@
 body {
 	color: #25D6E5;
 	background-color: #402105;
-	font-family: Georgia, "New Times Roman", serif;
+	font-family: "Roboto", sans-serif;
 	}
 
 .cir {
@@ -12,35 +12,28 @@ body {
 	height: 100px;
 	border-radius:100%;
 	font-size: 20px;
-	color:#5C5C7F;
+	color: #5C5C7F;
 	line-height: 100px;
 	text-align: center;
 	display: inline-block	
 }
 
-img {
-	width: 100%;
-    height: auto;
-    opacity: 0.3%;
-    border: none;
-}
-img {
-	width: 50%
-	height:auto;
-	opacity: 0.3%
-}
 
+.image {
+	position: relative;
+	width: 100%; /* for IE 6 */
+    
 h1 {
 	position: absolute;
-	top: 0px;
-	left: 0;
+	top: 200x;
+	left: 0px;
 	width: 100%;
-	font-size: 150px;
+	font-size: 100px;
 	text-align: center;
 	padding-left: 10px;
 	color: #74777c;
 	text-shadow: 2px 2px #000000;
-
+	font-family:"Merriweather", serif;
     }
 
 nav {
@@ -70,7 +63,7 @@ p {
 
 h2 {
 	font-size: 30px
-	font-style: italic, bold;
+	font-style: italic; 
 	text-transform: uppercase;
 	color: #9498a1;
 	text-align: center;
@@ -83,11 +76,14 @@ ul {
 	line-height: 100px;
 	text-align: center;
 	display: inline-block;
-	margin-top: 5.0;
-	margin-left: 5.0;
-
+	position: absolute;
+	right: 100px;
+	bottom: 20px;
+	top:945px;
+	vertical-align: middle;
+	padding-bottom: 20px;
 }
-.td{
+.table {
 	text-align: center;
 
 }
@@ -101,9 +97,9 @@ ul {
 }
 
 #description {
-	font-style: bold;
+	font-style: normal;
 	font-size: 70px;
 	color: #5C5C7F;
 	text-decoration: none;
 	text-align: center;
-
+}
