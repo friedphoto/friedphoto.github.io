@@ -24,31 +24,43 @@ body {
 	width: 100%; /* for IE 6 */
 }
 
-.left {
+div.gallery{
+	border: 1px solid #ccc;
+	display: block;
+	margin: auto;
+	width:40%;
+}
+
+   .left {
 	position: relative;
-	left: 30px;
-	width: 29%;
-	bottom: 2px;
-	top: 2px;
+	left: 0px;
+	width: 22%;
+	height: auto;
+	bottom: 100px;
+	top: -20px;
 	right: 5px;
 }
 .centered {
 	position: relative;
-	left: 60px;
-	width: 12%;
-	bottom: 2px;
-	top: 2px;
-	right: 5px;
-}
-.right {
-	position: relative;
-	left: 90px;
-	width: 28%;
-	bottom: 2px;
-	top: 2px;
-	right: 5px;
+	left: 5px;
+	width: 30%;
+	bottom: 0px;
+	top: -110px;
+	right: 5px
 	
 }
+.right {
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
+	
+		
+	
+
+
 .image img {
 	width:100vw;
 }
@@ -72,7 +84,7 @@ nav {
 	width: 100%;
 	font-size: 20px;
 	text-align: left;
-	padding:20px;
+	padding: 20px;
 	color: #9498a1;
 	font-style: italic;
 }   
@@ -106,9 +118,10 @@ ul {
 	text-align: center;
 	display: inline-block;
 	position: absolute;
-	right: 100px;
-	bottom: 20px;
-	top:945px;
+	right: 0px;
+	bottom: 0px;
+	top: 1300px;
+	left: 1300PX;
 	vertical-align: middle;
 	padding-bottom: 20px;
 }
