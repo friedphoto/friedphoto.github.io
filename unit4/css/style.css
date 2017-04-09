@@ -2,10 +2,9 @@
 body {
 	color: #25D6E5;
 	background-color: #171d22;
-	background-image: url ("images/flowers.jpg");
 	font-family: "Roboto", sans-serif;
 	margin: 0;
-	padding:0;
+	padding: 0;
 	}
 
 .cir {
@@ -35,7 +34,7 @@ body {
 
 .img-wrap {
 	display: inline-block;
-	margin: 0 0 2px 12px;
+	margin:12px 12px 12px 13px;
 }
 	
 
@@ -80,7 +79,7 @@ p {
 
 
 h2 {
-	font-size: 30px
+	font-size: 30px;
 	font-style: italic; 
 	text-transform: uppercase;
 	color: #9498a1;
@@ -93,15 +92,19 @@ ul {
 	font-size: 20px;
 	line-height: 100px;
 	text-align: center;
-	display: inline-block;
+	display: inline;
 	position: absolute;
 	right: 0px;
-	bottom: 0px;
-	top: 625px;
+	bottom: 1300px;
+	top: 540px;
 	left: 1300PX;
 	vertical-align: middle;
 	padding-bottom: 20px;
-	text-decoration: none;
+	text-decoration:none;
+}
+footer{
+	text-align: center;
+
 }
 
 #slogan {
@@ -118,3 +121,4 @@ ul {
 	color: #5C5C7F;
 	text-decoration: none;
 	text-align: center;
+}
