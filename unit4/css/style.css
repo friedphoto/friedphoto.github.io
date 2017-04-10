@@ -34,7 +34,8 @@ body {
 
 .img-wrap {
 	display: inline-block;
-	margin:12px 12px 12px 13px;
+	margin: 0 auto;
+	padding:12px;
 }
 	
 
@@ -99,7 +100,7 @@ ul {
 	padding-bottom: 20px;
 	text-decoration: none;
 }
-footer{
+footer {
 	text-align: center;
 
 }
