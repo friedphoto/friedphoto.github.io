@@ -4,6 +4,10 @@ body {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
 	padding: 0;
+
+
+article{
+	background-color:E89C6C;
 }
 
 .cir {
@@ -34,7 +38,7 @@ body {
 .img-wrap {
 	display: inline-block;
 	margin: 0 auto;
-	padding:12px;
+	padding:25px;
 }
 	
 
@@ -59,11 +63,12 @@ nav {
 	font-size: 20px;
 	text-align: left;
 	padding: 20px;
-	color: #9498a1;
+	color:#FF957E;
 	font-style: italic;
+	background-color: #E8C66A;
 }   
  nav a {
- 	color: #5C5C7F;
+ 	color: #E8C66A;
  	text-decoration: none;
 }
 p {
@@ -80,7 +85,20 @@ h2 {
 	color: #9498a1;
 	text-align: center;
 }
-ul {
+
+footer {
+	text-align: center;
+	color: #5C5C7F;
+	background-color: #FF957E;
+
+}
+.wrapper{
+	width:960;
+	margin:0 auto;
+}
+#menu ul {
+	padding:0;
+	margin:0;
 	list-style-type: none;
 	color: #0414FF;
 	border-radius:100%;
@@ -89,17 +107,12 @@ ul {
 	text-align: center;
 	display: inline;
 	position: absolute;
-	right: 0px;
-	bottom: 1300px;
-	top: 540px;
-	left: 1300PX;
 	vertical-align: middle;
 	padding-bottom: 20px;
 	text-decoration: none;
 }
-footer {
-	text-align: center;
-
+#menu li{
+	display: inline;
 }
 
 #slogan {
